@@ -20,7 +20,7 @@ html, body {
 	width: 100%;
 	min-height: 100%;
 	background: #59E9FE;
-	display: block;
+	display: none;
 }
 
 #logo {
@@ -105,7 +105,7 @@ li:hover {
 	width: 100%;
 	min-height: 100%;
 	background: #ff9c00;
-	display: none;
+	display: block;
 }
 
 #small_icons {
@@ -125,8 +125,7 @@ li:hover {
 
 #small_icons_ul {
 	padding: 0;
-	margin: 0;	
-	background: black
+	margin: 0;
 }
 
 #small_icons_ul li {
@@ -163,6 +162,7 @@ li:hover {
 	min-height: 250px;
 	position: relative;
 	margin: 74px auto 0 auto;
+	border: thin solid black;
 }
 
 #container .content_header {
@@ -171,4 +171,24 @@ li:hover {
 	position: relative;
 	top: 50px;
 	left: 50px;
+}
+
+#downloads_container table {
+	position: relative;
+	margin: 0 auto;	
+}
+
+#gui_download {
+	background: #ffaa45 url(img/gui_symbol_small.png) no-repeat center;
+	height: 64px;
+	width: 64px;
+}
+
+.download_table_main {
+	padding-left: 10px;
+	padding-right: 10px;	
+}
+
+.download_table_download {
+		
 }
