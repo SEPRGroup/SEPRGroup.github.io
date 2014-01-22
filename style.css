@@ -196,3 +196,17 @@ li:hover {
 #testing_container .content_container li {
 	padding: 10px;	
 }
+
+#gui_container table {
+	width: 100%;
+}
+
+#gui_container .image td{
+	width: 33%;
+	padding: 10px;	
+}
+
+#gui_container .text td{
+	height: 50px;
+	text-align: center;
+}
