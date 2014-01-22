@@ -14,10 +14,8 @@ function change_page(div){
 		if(allDivs[x] == divID){
 			document.getElementById(allDivs[x]).style.display="block";
 			window.location.hash = div;
-			console.log("Hello");
 		}else{
 			document.getElementById(allDivs[x]).style.display="none";
-			console.log(div);
 		}
 	}
 	
