@@ -3,7 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <title>Team PSA</title>
+<link rel="stylesheet" href="flexslider.css" type="text/css"> <!-- Flex slider -->
 <link href="style.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script> <!-- Flex slider -->
+<script src="jquery.flexslider.js"></script> <!-- Flex slider -->
 <script src="scripts.js" language="javascript" type="text/javascript"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -13,6 +16,11 @@
 
   ga('create', 'UA-47342634-1', 'seprgroup.github.io');
   ga('send', 'pageview');
+</script>
+<script type="text/javascript" charset="utf-8"> <!-- Flex slider -->
+  $(window).load(function() {
+    $('.flexslider').flexslider();
+  });
 </script>
 </head>
 
@@ -63,7 +71,7 @@
             <span class = "content_header">GUI</span>
             
             <div class = "content_container">
-         		<table>
+         		<!-- <table>
                 	<tr class = "image">
                     	<td><a href="img/ingame_menu.png" target="_blank"><img src="img/ingame_menu.png" width="100%" /></a></td>
                         <td><a href="img/ingame_screenshot.png" target="_blank"><img src="img/ingame_screenshot.png" width="100%" /></a></td>
@@ -74,8 +82,14 @@
                         <td>Active game with no chosen flights</td>
                         <td>Active game with chosen flights</td>
                     </tr>
-                </table>
-                
+                </table> -->
+                <div class="flexslider">
+                		<ul class="slides">
+                    			<li><a href="img/ingame_menu.png" target="_blank"><img src="img/ingame_menu.png"></a></li>
+                         		<li><a href="img/ingame_screenshot_controls.png" target="_blank"><img src="img/ingame_screenshot.png"></a></li>
+                             <li><a href="img/ingame_screenshot_controls.png" target="_blank"><img src="img/ingame_screenshot_controls.png"></a></li>
+                  	</ul>
+                </div>
             </div>
         </div>
         
