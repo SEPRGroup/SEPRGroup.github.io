@@ -19,7 +19,11 @@
 </script>
 <script type="text/javascript" charset="utf-8"> <!-- Flex slider -->
   $(window).load(function() {
-    $('.flexslider').flexslider();
+    $('.flexslider').flexslider({
+		animation: "slide",
+		slideshowSpeed: 5000,
+		pauseOnHover: true
+	});
   });
 </script>
 </head>
@@ -73,9 +77,9 @@
             <div class = "content_container">
                 <div class="flexslider">
                 		<ul class="slides">
-                    			<li><a href="img/ingame_menu.png" target="_blank"><img src="img/ingame_menu.png"></a></li>
-                         		<li><a href="img/ingame_screenshot_controls.png" target="_blank"><img src="img/ingame_screenshot.png"></a></li>
-                             <li><a href="img/ingame_screenshot_controls.png" target="_blank"><img src="img/ingame_screenshot_controls.png"></a></li>
+                    			<li data-thumb="img/ingame_menu.png"><a href="img/ingame_menu.png" target="_blank"><img src="img/ingame_menu.png"></a></li>
+                         		<li data-thumb="img/ingame_screenshot_controls.png"><a href="img/ingame_screenshot_controls.png" target="_blank"><img src="img/ingame_screenshot.png"></a></li>
+                             <li data-thumb="img/ingame_screenshot_controls.png"><a href="img/ingame_screenshot_controls.png" target="_blank"><img src="img/ingame_screenshot_controls.png"></a></li>
                   	</ul>
                 </div>
             </div>

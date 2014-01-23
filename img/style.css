@@ -10,19 +10,32 @@ html, body {
 
 .img {
 	height: 100%;
-	width: 100%;	
+	width: 100%;
 }
 
-#img1 {
-	background: url(ingame_menu.png);
+#i1 {
+	background: url(ingame_menu.png) no-repeat center center fixed;
+	-webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+	display: block;
 }
 
-#img2 {
-	background: url(ingame_screenshot.png);
+#i2 {
+	background: url(ingame_screenshot.png) no-repeat center center fixed;
+	-webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
 	display: none;
 }
 
-#img3 {
-	background: url(ingame_screenshot_controls.png);
+#i3 {
+	background: url(ingame_screenshot_controls.png) no-repeat center center fixed;
+	-webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
 	display: none;
 }
