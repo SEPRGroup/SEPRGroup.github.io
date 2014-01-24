@@ -83,7 +83,7 @@ li:hover {
 }
 
 #element_container_ul #downloads {
-	background: #00ff42 url(img/downloads_symbol.png) center no-repeat;
+	background: #1910c6 url(img/downloads_symbol.png) center no-repeat;
 }
 
 #element_container_ul .sub_text {
@@ -117,7 +117,7 @@ li:hover {
 #downloads_container {
 	width: 100%;
 	min-height: 100%;
-	background: #00ff42;
+	background: #1910c6;
 	display: none;
 }
 
@@ -167,7 +167,7 @@ li:hover {
 }
 
 #small_icons_ul #downloads {
-	background: #00ff42 url(img/downloads_symbol_small.png) center no-repeat;
+	background: #1910c6 url(img/downloads_symbol_small.png) center no-repeat;
 }
 
 #container .content_container {
@@ -220,12 +220,13 @@ li:hover {
 }
 
 #gui_container .text td{
-	height: 50px;
+	height: 46px;
 	text-align: center;
 }
 
 #downloads_container table {
 	font-size: 30px;
+	top: 20px;
 }
 
 #downloads_container table td {
