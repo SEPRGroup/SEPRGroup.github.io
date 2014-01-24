@@ -245,6 +245,8 @@ li:hover {
 
 #downloads_container table td {
 	padding: 10px;
+	height: 100%;
+	vertical-align: middle;
 }
 
 #downloads_container .download_code {
@@ -253,6 +255,10 @@ li:hover {
 
 #downloads_container .download_image {
 	background: #ffaa45;
+}
+
+#downloads_container .download_manual {
+	background: #333;
 }
 
 #coding_container p {
