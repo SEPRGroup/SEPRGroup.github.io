@@ -10,7 +10,7 @@ html, body {
 }
 
 a {
-	color: #FFF1F1;	
+	color: #FFFFFF;	
 }
 
 h2 {
@@ -224,6 +224,18 @@ li:hover {
 	text-align: center;
 }
 
-.java {
-	background: #B2B2B2;	
+#downloads_container table {
+	font-size: 30px;
+}
+
+#downloads_container table td {
+	padding: 10px;
+}
+
+#downloads_container .download_code {
+	background: #ff4545	
+}
+
+#downloads_container .download_image {
+	background: #ffaa45;
 }
