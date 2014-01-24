@@ -14,12 +14,20 @@ a {
 }
 
 h2 {
-	font-weight: 600;
+	font-weight: 800;
 	padding: 5px 0 0 0;	
+	font-size: 35px;
+}
+
+h3 {
+	font-weight: 600;
+	font-size: 23px;
+	padding: 0;	
 }
 
 p {
 	padding: 0 25px 30px 25px;	
+	font-size: 19px;
 }
 
 iframe {
@@ -245,4 +253,8 @@ li:hover {
 
 #downloads_container .download_image {
 	background: #ffaa45;
+}
+
+#coding_container p {
+	padding: 0;	
 }
