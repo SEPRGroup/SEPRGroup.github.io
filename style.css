@@ -1,0 +1,266 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;	
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+a {
+	color: #FFFFFF;	
+}
+
+h2 {
+	font-weight: 800;
+	padding: 5px 0 0 0;	
+	font-size: 35px;
+}
+
+h3 {
+	font-weight: 600;
+	font-size: 23px;
+	padding: 0;	
+}
+
+p {
+	padding: 0 25px 30px 25px;	
+	font-size: 19px;
+}
+
+iframe {
+	width: 80%;
+	border: none;
+	height: 800px;
+}
+
+#container {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	/* overflow: hidden; */
+}
+
+#home_container {
+	width: 100%;
+	min-height: 100%;
+	background: #59E9FE;
+	display: block;
+}
+
+#logo {
+	width: 	557px;
+	height: 163px;
+	background: url(img/logo.png) bottom no-repeat;
+	position: relative;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+
+#element_container {
+	width: 702px;
+	height: 163px;
+	position: relative;
+	margin: 0 auto;
+}
+
+#element_container ul {
+	padding: 0;
+	margin: 20px 0 0 0;	
+}
+
+#element_container li {
+	list-style: none;	
+	width: 163px;
+	height: 163px;
+	float: left;
+	margin-left: 16px;
+}
+
+li:hover {
+	cursor: pointer;	
+}
+
+#element_container_ul #coding {
+	margin-left: 0;
+	background: #ff4545 url(img/coding_symbol.png) center no-repeat;
+}
+
+#element_container_ul #gui {
+	background: #ffaa45 url(img/gui_symbol.png) center no-repeat;
+}
+
+#element_container_ul #testing {
+	background: #b745ff url(img/testing_symbol.png) center no-repeat;
+}
+
+#element_container_ul #downloads {
+	background: #1910c6 url(img/downloads_symbol.png) center no-repeat;
+}
+
+#element_container_ul .sub_text {
+	color: #fff;
+	font-size: 25px;
+	position: absolute;
+	top: 168px;
+}
+
+#coding_container {
+	width: 100%;
+	min-height: 100%;
+	background: #ff4545;
+	display: none;
+}
+
+#gui_container {
+	width: 100%;
+	min-height: 100%;
+	background: #ffaa45;
+	display: none;
+}
+
+#testing_container {
+	width: 100%;
+	min-height: 100%;
+	background: #b745ff;
+	display: none;
+}
+
+#downloads_container {
+	width: 100%;
+	min-height: 100%;
+	background: #1910c6;
+	display: none;
+}
+
+#small_icons {
+	width: 342px;
+	height: 64px;
+	position: absolute;
+	top: 10px;
+	right: 10px;	
+}
+
+#small_icons_ul .sub_text {
+	font-size: 10px;	
+	color: #fff;
+	position: absolute;
+	top: 68px;
+}
+
+#small_icons_ul {
+	padding: 0;
+	margin: 0;
+}
+
+#small_icons_ul li {
+	width: 64px;
+	height: 64px;
+	margin-left: 5px;
+	float: left;	
+	list-style: none;
+}
+
+#small_icons_ul #home {
+	margin: 0;
+	background: #59e9fe url(img/home_symbol_small.png) center no-repeat;
+}
+
+#small_icons_ul #coding {
+	background: #ff4545 url(img/coding_symbol_small.png) center no-repeat;
+}
+
+#small_icons_ul #gui {
+	background: #ffaa45 url(img/gui_symbol_small.png) center no-repeat;
+}
+
+#small_icons_ul #testing {
+	background: #b745ff url(img/testing_symbol_small.png) center no-repeat;
+}
+
+#small_icons_ul #downloads {
+	background: #1910c6 url(img/downloads_symbol_small.png) center no-repeat;
+}
+
+#container .content_container {
+	width: 65%;
+	min-height: 250px;
+	position: relative;
+	margin: 74px auto 0 auto;
+	color: #fff;
+}
+
+#container .content_header {
+	font-size: 100px;
+	color: #fff;	
+	position: relative;
+	top: 50px;
+	left: 50px;
+}
+
+#downloads_container table {
+	position: relative;
+	margin: 0 auto;	
+}
+
+#gui_download {
+	background: #ffaa45 url(img/gui_symbol_small.png) no-repeat center;
+	height: 64px;
+	width: 64px;
+}
+
+.download_table_main {
+	padding-left: 10px;
+	padding-right: 10px;	
+}
+
+.download_table_download {
+		
+}
+
+#testing_container .content_container li {
+	padding: 10px;	
+}
+
+#gui_container table {
+	width: 100%;
+}
+
+#gui_container .image td{
+	width: 33%;
+	padding: 10px;	
+}
+
+#gui_container .text td{
+	height: 46px;
+	text-align: center;
+}
+
+#downloads_container table {
+	font-size: 30px;
+	top: 20px;
+}
+
+#downloads_container table td {
+	padding: 10px;
+	height: 100%;
+	vertical-align: middle;
+}
+
+#downloads_container .download_code {
+	background: #ff4545	
+}
+
+#downloads_container .download_image {
+	background: #ffaa45;
+}
+
+#downloads_container .download_manual {
+	background: #333;
+}
+
+#coding_container p {
+	padding: 0;	
+}
