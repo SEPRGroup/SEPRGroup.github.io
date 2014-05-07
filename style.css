@@ -60,7 +60,7 @@ iframe {
 }
 
 #element_container {
-	width: 702px;
+	width: 537px;
 	height: 163px;
 	position: relative;
 	margin: 0 auto;
@@ -136,7 +136,7 @@ li:hover {
 }
 
 #small_icons {
-	width: 342px;
+	width: 273px;
 	height: 64px;
 	position: absolute;
 	top: 10px;
